@@ -11,7 +11,7 @@ Menu={
 print("Welcome To F&F Restaurant")
 print("Zinger Burger:Rs 320\nBBQ Sandwitch:Rs350\nZinger Shwarma:Rs190\nPizza: Rs1000\nChicken Roll: Rs150")
 
-total_item=0
+total_item = 0
 
 item_1=input("Place your Order:")
 
@@ -31,4 +31,4 @@ if another_order=="yes":
     else:
        print(f"this item {item_2} is not avail right now")
 
-print("total amount to pay{total_item}")
+print(f"total amount to pay{total_item}")
